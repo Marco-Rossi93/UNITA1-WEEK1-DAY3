@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Center an Image using text align center</title>
+    <!-- CSS ESTERNO -> consiste nella creazione di un file .css SEPARATO e collegato al nostro documento HTML con un tag
+          <link /> all'interno di <head>
+          Questo tag <link /> avrà bisogno di DUE attributi: "rel" con valore "stylesheet" e "href" con valore del percorso del file
+        - soluzione definitiva: abbiamo le regole di stile completamente SEPARATE dal foglio HTML, e possiamo addirittura
+          riutilizzare il foglio CSS su diversi documenti HTML
+          È anche possibile allegare DIVERSI documenti css ad un foglio html in modo da applicare in sequenza diversi "blocchi"
+          di regole, magari un foglio per le regole generiche di tutte le pagine del sito e un altro per delle regole
+          che si applicano solamente su una specifica pagina. -->
+    <link rel="stylesheet" href="file.css" />
+  </head>
+  <header>
+    <img src="logo.png" width="130" />
+    <div>
+      <rect
+        x="10"
+        y="10"
+        rx="2"
+        ry="2"
+        larghezza="100"
+        altezza="50"
+        style="fill: red"
+      />
+    </div>
+  </header>
+  <body>
+    <h2>Part of A SIMPLY FABULOUS THANKSGIVING</h2>
+    <h4>Focaccia with Caramelized Onions, Cranberries, and Brie</h4>
+    <h6>
+      Wow your taste buds with this festive focaccia appetizer topped with sweet
+      caramelized onions, tart cranberries, and creamy brie. It will become your
+      new favorite holiday starter!
+    </h6>
+    <div>
+      <img src="focaccia.png" width="400" />
+    </div>
+  </body>
+</html>
